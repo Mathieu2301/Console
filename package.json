@@ -1,0 +1,24 @@
+{
+  "name": "@mathieuc/console",
+  "version": "1.0.0",
+  "description": "Easy console colors",
+  "main": "main.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathieu2301/Console.git"
+  },
+  "keywords": [
+    "console",
+    "colors",
+    "better"
+  ],
+  "author": "Mathieu Colmon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mathieu2301/Console/issues"
+  },
+  "homepage": "https://github.com/Mathieu2301/Console#readme"
+}
