@@ -15,7 +15,7 @@ module.exports = function init(char = '§', timestamp = false, CORR = 0, timeCol
       }]${char}0`);
     }
 
-    return _[t](...l.map((l) => (typeof l !== 'string') ? l : l.replace(regex, (s) => `\x1b[${s.replace(char, '')}m`)));
+    return _[t](...l.map((l) => (typeof l !== 'string') ? l : l.replace(regex, (s) => `\x1b[${s.replace(char, '')}m`)), '\x1b[0m');
   };
 
   console = {

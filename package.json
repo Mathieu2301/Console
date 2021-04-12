@@ -1,6 +1,6 @@
 {
   "name": "@mathieuc/console",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy console colors",
   "main": "main.js",
   "scripts": {
